@@ -1,0 +1,12 @@
+# Git ignore file
+
+# We don't want to commit our data folder
+data/
+
+# We also don't want to commit markdown html previews
+*.html
+
+# Exclude .Rdata and .RHistory as well
+.RData
+.RHistory
+
